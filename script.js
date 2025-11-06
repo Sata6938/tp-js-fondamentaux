@@ -41,7 +41,7 @@ const classe = [
 
 for (let i = 0; i < classe.length; i++) {
     if (classe[i].age >= 18) {
-    console.log(classe[i].prenom + " est majeur");
+    console.log(classe[i].prenom + "est majeur");
 } else {
     console.log("le reste des éleves est mineur");
 }
