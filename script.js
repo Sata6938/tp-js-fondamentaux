@@ -36,14 +36,27 @@ for (let i = 0; i < notes.length; i++) {
 const classe = [
     { prenom: 'Alice', age: 18 },
     { prenom: 'Bob', age: 19},
-    { prenom: 'madie', age: 17 }
+    { prenom: 'madie', age: 19 },
+    { prenom: 'moha', age: 23 },
+    { prenom: 'camille', age: 4 },
+    { prenom: 'johan', age: 27 },
+    { prenom: 'greg', age: 34 },
+    { prenom: 'louise', age: 5 },
+    { prenom: 'francis', age: 65 },
+    { prenom: 'stanislas', age: 12 },
 ]
 
 for (let i = 0; i < classe.length; i++) {
     if (classe[i].age >= 18) {
-    console.log(classe[i].prenom + "est majeur");
+    console.log(classe[i].prenom + " est majeur");
 } else {
-    console.log("le reste des éleves est mineur");
+    console.log(classe[i].prenom +  " est mineur");
 }
 }
+
+function saluer(prenom) {
+    const message = "Bonjour " + prenom;
+    return message;
+}
+console.log(saluer("maxime"))
 
