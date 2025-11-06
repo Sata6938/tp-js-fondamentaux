@@ -60,3 +60,4 @@ function saluer(prenom) {
 }
 console.log(saluer("maxime"))
 
+const estmajeur = (age) => age >=18
