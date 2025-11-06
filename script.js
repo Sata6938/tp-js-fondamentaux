@@ -26,3 +26,24 @@ const moi = {
 };
 
 console.log(moi)
+
+const notes = [12, 15, 9, 18];
+
+for (let i = 0; i < notes.length; i++) {
+    console.log("La note à l'indice " + (i+1) + " est " + notes[i]);
+}
+
+const classe = [
+    { prenom: 'Alice', age: 18 },
+    { prenom: 'Bob', age: 19},
+    { prenom: 'madie', age: 17 }
+]
+
+for (let i = 0; i < classe.length; i++) {
+    if (classe[i].age >= 18) {
+    console.log(classe[i].prenom + " est majeur");
+} else {
+    console.log("le reste des éleves est mineur");
+}
+}
+
